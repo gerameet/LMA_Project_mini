@@ -18,9 +18,10 @@ ENV/
 # Jupyter Notebooks
 .ipynb_checkpoints
 
-# Tokenizer and corpus cache (if any)
-tokenizer_bpe/
-corpus_data/
+
+# Data and tokenizer folders
+data/
+tokenizer/
 
 # OS files
 .DS_Store
@@ -35,6 +36,6 @@ corpus_data/
 *.swp
 *.swo
 
-# Remove this line if you want to include tokenizer/corpus data in repo
-sample_corpus/
-corpus_data/
+# Remove this line if you want to include data or tokenizer in repo
+data/
+tokenizer/
