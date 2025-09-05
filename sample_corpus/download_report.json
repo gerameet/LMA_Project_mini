@@ -1,0 +1,27 @@
+{
+  "target_tokens": 10000,
+  "languages": {
+    "english": {
+      "target_tokens": 2304,
+      "downloaded_tokens": 5007,
+      "processed_tokens": 178,
+      "target_percentage": 23.04,
+      "actual_percentage": 25.31856796116505
+    },
+    "hindi": {
+      "target_tokens": 1613,
+      "downloaded_tokens": 8687,
+      "processed_tokens": 2230,
+      "target_percentage": 16.13,
+      "actual_percentage": 43.926982200647245
+    },
+    "sanskrit": {
+      "target_tokens": 6082,
+      "downloaded_tokens": 6082,
+      "processed_tokens": 4940454,
+      "target_percentage": 60.81999999999999,
+      "actual_percentage": 30.754449838187703
+    }
+  },
+  "total_downloaded_tokens": 19776
+}

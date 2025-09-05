@@ -1,0 +1,120 @@
+{
+  "target_tokens": 3000000000,
+  "token_distribution": {
+    "english": 0.50,
+    "hindi": 0.35,
+    "sanskrit": 0.15
+  },
+  "datasets": {
+    "english": [
+      {
+        "name": "wikimedia/wikipedia",
+        "config": "20231101.en",
+        "text_column": "text",
+        "streaming": true,
+        "description": "English Wikipedia dump",
+        "priority": 1
+      },
+      {
+        "name": "openwebtext",
+        "config": null,
+        "text_column": "text",
+        "streaming": true,
+        "description": "Large English web text corpus",
+        "priority": 2
+      },
+      {
+        "name": "c4",
+        "config": "en",
+        "text_column": "text",
+        "streaming": true,
+        "description": "Cleaned Common Crawl (English)",
+        "priority": 3
+      },
+      {
+        "name": "bookcorpus",
+        "config": null,
+        "text_column": "text",
+        "streaming": true,
+        "description": "Collection of books in English",
+        "priority": 4
+      }
+    ],
+    "hindi": [
+      {
+        "name": "wikimedia/wikipedia",
+        "config": "20231101.hi",
+        "text_column": "text",
+        "streaming": true,
+        "description": "Hindi Wikipedia dump",
+        "priority": 1
+      },
+      {
+        "name": "CohereForAI/aya_dataset",
+        "config": null,
+        "text_column": "inputs",
+        "streaming": true,
+        "description": "Aya multilingual dataset (Hindi content)",
+        "priority": 2
+      },
+      {
+        "name": "OpenAssistant/oasst1",
+        "config": null,
+        "text_column": "text",
+        "streaming": true,
+        "description": "OpenAssistant conversations (multilingual)",
+        "priority": 3
+      },
+      {
+        "name": "mc4",
+        "config": "hi",
+        "text_column": "text",
+        "streaming": true,
+        "description": "Multilingual C4 (Hindi)",
+        "priority": 4
+      }
+    ],
+    "sanskrit": [
+      {
+        "name": "wikimedia/wikipedia",
+        "config": "20231101.sa",
+        "text_column": "text",
+        "streaming": true,
+        "description": "Sanskrit Wikipedia dump",
+        "priority": 1
+      },
+      {
+        "name": "CohereForAI/aya_dataset",
+        "config": null,
+        "text_column": "inputs",
+        "streaming": true,
+        "description": "Aya multilingual dataset (Sanskrit content if available)",
+        "priority": 2
+      },
+      {
+        "name": "mc4",
+        "config": "sa",
+        "text_column": "text",
+        "streaming": true,
+        "description": "Multilingual C4 (Sanskrit if available)",
+        "priority": 3
+      }
+    ]
+  },
+  "processing": {
+    "batch_size": 1000,
+    "min_text_length": 10,
+    "max_text_length": 10000,
+    "min_sentence_words": 3,
+    "deduplication": true,
+    "segmentation": true,
+    "language_detection": true
+  },
+  "output": {
+    "base_directory": "corpus_data",
+    "save_raw": true,
+    "save_processed": true,
+    "save_metadata": true,
+    "compression": false
+  }
+}

@@ -1,0 +1,1160 @@
+{
+  "authentication": true,
+  "test_config": {
+    "sample_size": 5
+  },
+  "results_by_language": {
+    "english": {
+      "datasets": [
+        {
+          "dataset_name": "wikimedia/wikipedia",
+          "config": "20231101.en",
+          "split": "train",
+          "expected_language": "english",
+          "text_column": "text",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 0.9999212288302481,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 0.9999212288302481,
+                "details": {
+                  "total_chars": 46064,
+                  "alpha_chars": 38085,
+                  "devanagari_chars": 0,
+                  "latin_chars": 38082,
+                  "other_chars": 3,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.9999212288302481,
+                  "other_ratio": 7.877116975187081e-05
+                }
+              },
+              "text_preview": "Anarchism is a political philosophy and movement that is skeptical of all justifications for authori..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 0.9998030429858683,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 0.9998030429858683,
+                "details": {
+                  "total_chars": 25076,
+                  "alpha_chars": 20309,
+                  "devanagari_chars": 0,
+                  "latin_chars": 20305,
+                  "other_chars": 4,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.9998030429858683,
+                  "other_ratio": 0.00019695701413166577
+                }
+              },
+              "text_preview": "Albedo (; ) is the fraction of sunlight that is diffusely reflected by a body. It is measured on a s..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 0.9876408578698656,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 0.9876408578698656,
+                "details": {
+                  "total_chars": 10574,
+                  "alpha_chars": 8253,
+                  "devanagari_chars": 0,
+                  "latin_chars": 8151,
+                  "other_chars": 102,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.9876408578698656,
+                  "other_ratio": 0.012359142130134497
+                }
+              },
+              "text_preview": "A, or a, is the first letter and the first vowel of the Latin alphabet, used in the modern English a..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 0.9998044838373306,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 0.9998044838373306,
+                "details": {
+                  "total_chars": 78231,
+                  "alpha_chars": 61376,
+                  "devanagari_chars": 0,
+                  "latin_chars": 61364,
+                  "other_chars": 12,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.9998044838373306,
+                  "other_ratio": 0.00019551616266944735
+                }
+              },
+              "text_preview": "Alabama () is a state in the Southeastern region of the United States, bordered by Tennessee to the ..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 0.995409565695437,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 0.995409565695437,
+                "details": {
+                  "total_chars": 46091,
+                  "alpha_chars": 36380,
+                  "devanagari_chars": 0,
+                  "latin_chars": 36213,
+                  "other_chars": 167,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.995409565695437,
+                  "other_ratio": 0.004590434304562947
+                }
+              },
+              "text_preview": "In Greek mythology, Achilles ( ) or Achilleus () was a hero of the Trojan War who was known as being..."
+            }
+          ],
+          "language_stats": {
+            "english": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        },
+        {
+          "dataset_name": "allenai/c4",
+          "config": "en",
+          "split": "train",
+          "expected_language": "english",
+          "text_column": "text",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 747,
+                  "alpha_chars": 595,
+                  "devanagari_chars": 0,
+                  "latin_chars": 595,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "Beginners BBQ Class Taking Place in Missoula!\nDo you want to get better at making delicious BBQ? You..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 1628,
+                  "alpha_chars": 1248,
+                  "devanagari_chars": 0,
+                  "latin_chars": 1248,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "Discussion in 'Mac OS X Lion (10.7)' started by axboi87, Jan 20, 2012.\nI've got a 500gb internal dri..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 183,
+                  "alpha_chars": 149,
+                  "devanagari_chars": 0,
+                  "latin_chars": 149,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "Foil plaid lycra and spandex shortall with metallic slinky insets. Attached metallic elastic belt wi..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 957,
+                  "alpha_chars": 718,
+                  "devanagari_chars": 0,
+                  "latin_chars": 718,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "How many backlinks per day for new site?\nDiscussion in 'Black Hat SEO' started by Omoplata, Dec 3, 2..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 1013,
+                  "alpha_chars": 811,
+                  "devanagari_chars": 0,
+                  "latin_chars": 811,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "The Denver Board of Education opened the 2017-18 school year with an update on projects that include..."
+            }
+          ],
+          "language_stats": {
+            "english": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        },
+        {
+          "dataset_name": "HuggingFaceFW/fineweb",
+          "config": "sample-10BT",
+          "split": "train",
+          "expected_language": "english",
+          "text_column": "text",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 414,
+                  "alpha_chars": 295,
+                  "devanagari_chars": 0,
+                  "latin_chars": 295,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "|Viewing Single Post From: Spoilers for the Week of February 11th|\n|Lil||Feb 1 2013, 09:58 AM|\nDon't..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 3018,
+                  "alpha_chars": 2353,
+                  "devanagari_chars": 0,
+                  "latin_chars": 2353,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "*sigh* Fundamentalist community, let me pass on some advice to you I learned from the atheistic comm..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 2825,
+                  "alpha_chars": 2307,
+                  "devanagari_chars": 0,
+                  "latin_chars": 2307,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "A novel two-step immunotherapy approach has shown clinically beneficial responses in patients with a..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 2467,
+                  "alpha_chars": 1940,
+                  "devanagari_chars": 0,
+                  "latin_chars": 1940,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "Free the Cans! Working Together to Reduce Waste\nIn a blog about how people share, it’s worth the occ..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 3303,
+                  "alpha_chars": 2637,
+                  "devanagari_chars": 0,
+                  "latin_chars": 2637,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "ORLANDO, Fla. — While the Rapid Recall Exchange, the 2-year-old industry recall portal, has signed u..."
+            }
+          ],
+          "language_stats": {
+            "english": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        },
+        {
+          "dataset_name": "microsoft/orca-math-word-problems-200k",
+          "config": null,
+          "split": "train",
+          "expected_language": "english",
+          "text_column": "question",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 102,
+                  "alpha_chars": 82,
+                  "devanagari_chars": 0,
+                  "latin_chars": 82,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "Jungkook is the 5th place. Find the number of people who crossed the finish line faster than Jungkoo..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 118,
+                  "alpha_chars": 87,
+                  "devanagari_chars": 0,
+                  "latin_chars": 87,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "A number divided by 10 is 6. Yoongi got the result by subtracting 15 from a certain number. What is ..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 473,
+                  "alpha_chars": 375,
+                  "devanagari_chars": 0,
+                  "latin_chars": 375,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "Dongju selects a piece of paper with a number written on it, and wants to make a three-digit number ..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 135,
+                  "alpha_chars": 102,
+                  "devanagari_chars": 0,
+                  "latin_chars": 102,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "You wanted to subtract 46 from a number, but you accidentally subtract 59 and get 43. How much do yo..."
+            },
+            {
+              "expected_language": "english",
+              "predicted_language": "english",
+              "language_match": true,
+              "match_score": 1.0,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 218,
+                  "alpha_chars": 169,
+                  "devanagari_chars": 0,
+                  "latin_chars": 169,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "The length of one span of Jinseo is about 12 centimeters (cm). When Jinseo measured the length of th..."
+            }
+          ],
+          "language_stats": {
+            "english": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        }
+      ],
+      "total_datasets": 4,
+      "successful_datasets": 4,
+      "failed_datasets": 0,
+      "average_accuracy": 1.0
+    },
+    "hindi": {
+      "datasets": [
+        {
+          "dataset_name": "wikimedia/wikipedia",
+          "config": "20231101.hi",
+          "split": "train",
+          "expected_language": "hindi",
+          "text_column": "text",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.3317972350230414,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.3317972350230414,
+                "details": {
+                  "total_chars": 420,
+                  "alpha_chars": 217,
+                  "devanagari_chars": 289,
+                  "latin_chars": 38,
+                  "other_chars": -110,
+                  "devanagari_ratio": 1.3317972350230414,
+                  "latin_ratio": 0.17511520737327188,
+                  "other_ratio": -0.5069124423963134
+                }
+              },
+              "text_preview": "हम होंगे कामयाब ( का गिरिजा कुमार माथुर द्वारा किया गया हिंदी भावानुवाद) एक प्रतिरोध गीत है। यह गीत ..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.6126279863481228,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6126279863481228,
+                "details": {
+                  "total_chars": 3827,
+                  "alpha_chars": 1758,
+                  "devanagari_chars": 2835,
+                  "latin_chars": 4,
+                  "other_chars": -1081,
+                  "devanagari_ratio": 1.6126279863481228,
+                  "latin_ratio": 0.0022753128555176336,
+                  "other_ratio": -0.6149032992036405
+                }
+              },
+              "text_preview": "दैनिक पूजा विधि हिन्दू धर्म की कई उपासना पद्धतियों में से एक है। ये एक दैनिक कर्म है। विभिन्न देवताओ..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.7063266307013243,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.7063266307013243,
+                "details": {
+                  "total_chars": 22266,
+                  "alpha_chars": 10195,
+                  "devanagari_chars": 17396,
+                  "latin_chars": 15,
+                  "other_chars": -7216,
+                  "devanagari_ratio": 1.7063266307013243,
+                  "latin_ratio": 0.0014713094654242277,
+                  "other_ratio": -0.7077979401667484
+                }
+              },
+              "text_preview": "हिन्दी जिसके मानकीकृत रूप को मानक हिन्दी कहा जाता है, विश्व की एक प्रमुख भाषा है और भारत की एक राजभा..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.6815881666017907,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6815881666017907,
+                "details": {
+                  "total_chars": 5557,
+                  "alpha_chars": 2569,
+                  "devanagari_chars": 4320,
+                  "latin_chars": 7,
+                  "other_chars": -1758,
+                  "devanagari_ratio": 1.6815881666017907,
+                  "latin_ratio": 0.0027247956403269754,
+                  "other_ratio": -0.6843129622421176
+                }
+              },
+              "text_preview": "फ़ारसी (), एक भाषा है जो ईरान, ताजिकिस्तान, अफ़गानिस्तान और उज़बेकिस्तान में बोली जाती है। यह ईरान, ..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.5977526383721814,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.5977526383721814,
+                "details": {
+                  "total_chars": 27584,
+                  "alpha_chars": 13171,
+                  "devanagari_chars": 21044,
+                  "latin_chars": 557,
+                  "other_chars": -8430,
+                  "devanagari_ratio": 1.5977526383721814,
+                  "latin_ratio": 0.042289879280236885,
+                  "other_ratio": -0.6400425176524182
+                }
+              },
+              "text_preview": "देवनागरी भारतीय उपमहाद्वीप में प्रयुक्त प्राचीन ब्राह्मी लिपि पर आधारित बाएँ से दाएँ आबूगीदा है। यह ..."
+            }
+          ],
+          "language_stats": {
+            "hindi": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        },
+        {
+          "dataset_name": "ai4bharat/sangraha",
+          "config": "verified",
+          "split": "hin",
+          "expected_language": "hindi",
+          "text_column": "text",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.5648148148148149,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.5648148148148149,
+                "details": {
+                  "total_chars": 2478,
+                  "alpha_chars": 1188,
+                  "devanagari_chars": 1859,
+                  "latin_chars": 53,
+                  "other_chars": -724,
+                  "devanagari_ratio": 1.5648148148148149,
+                  "latin_ratio": 0.04461279461279461,
+                  "other_ratio": -0.6094276094276094
+                }
+              },
+              "text_preview": "अमेरिकी राष्ट्रपति चुनाव (US Presidential Election) के दिन नासा (NASA) की एस्ट्रॉनॉट केट रूबिन्स (Ka..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.5769980506822612,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.5769980506822612,
+                "details": {
+                  "total_chars": 2195,
+                  "alpha_chars": 1026,
+                  "devanagari_chars": 1618,
+                  "latin_chars": 31,
+                  "other_chars": -623,
+                  "devanagari_ratio": 1.5769980506822612,
+                  "latin_ratio": 0.030214424951267055,
+                  "other_ratio": -0.6072124756335283
+                }
+              },
+              "text_preview": "(source : IANS) (Photo Credit: (source : IANS))\nलंदनः\nविश्व टेस्ट चैम्पियनशिप (डब्ल्यूटीसी) फाइनल जी..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.6543478260869566,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6543478260869566,
+                "details": {
+                  "total_chars": 2831,
+                  "alpha_chars": 1380,
+                  "devanagari_chars": 2283,
+                  "latin_chars": 0,
+                  "other_chars": -903,
+                  "devanagari_ratio": 1.6543478260869566,
+                  "latin_ratio": 0.0,
+                  "other_ratio": -0.6543478260869565
+                }
+              },
+              "text_preview": "रतन मेत्युपल थाफ एजूकेशन\n(१) ग्रामीण क्षेत्रों के छात्रो का पारिवारिक वातावरण सराव है वह उन्हें मैंग..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.6196396144712948,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6196396144712948,
+                "details": {
+                  "total_chars": 15268,
+                  "alpha_chars": 7159,
+                  "devanagari_chars": 11595,
+                  "latin_chars": 43,
+                  "other_chars": -4479,
+                  "devanagari_ratio": 1.6196396144712948,
+                  "latin_ratio": 0.0060064254784187735,
+                  "other_ratio": -0.6256460399497137
+                }
+              },
+              "text_preview": "विकास एआई द्वारा संचालित संक्षिप्त सारांश के लिए 'सारांश सामग्री' पर क्लिक करें।\nप्रथम सूचना रिपोर्ट..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "hindi",
+              "language_match": true,
+              "match_score": 1.6423118865866957,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6423118865866957,
+                "details": {
+                  "total_chars": 1962,
+                  "alpha_chars": 917,
+                  "devanagari_chars": 1506,
+                  "latin_chars": 0,
+                  "other_chars": -589,
+                  "devanagari_ratio": 1.6423118865866957,
+                  "latin_ratio": 0.0,
+                  "other_ratio": -0.6423118865866958
+                }
+              },
+              "text_preview": "दिलेर समाचार, हम सभी ये तो जानते ही हैं कि इस दुनिया में हर कोई चाहता है कि वो खुब पैसे कमाए और जितन..."
+            }
+          ],
+          "language_stats": {
+            "hindi": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        },
+        {
+          "dataset_name": "ai4bharat/IndicCorp",
+          "config": "hi",
+          "split": "train",
+          "expected_language": "hindi",
+          "text_column": "sentence",
+          "status": "error",
+          "samples": [],
+          "language_stats": {},
+          "error": "Dataset 'ai4bharat/IndicCorp' doesn't exist on the Hub or cannot be accessed."
+        },
+        {
+          "dataset_name": "CohereForAI/aya_dataset",
+          "config": null,
+          "split": "train",
+          "expected_language": "hindi",
+          "text_column": "inputs",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "hindi",
+              "predicted_language": "english",
+              "language_match": false,
+              "match_score": 0.5,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 1.0,
+                "details": {
+                  "total_chars": 67,
+                  "alpha_chars": 54,
+                  "devanagari_chars": 0,
+                  "latin_chars": 54,
+                  "other_chars": 0,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 1.0,
+                  "other_ratio": 0.0
+                }
+              },
+              "text_preview": "Heestan waxaa qada Khalid Haref Ahmed \nOO ku Jiray Kooxdii Dur Dur!"
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "english",
+              "language_match": false,
+              "match_score": 0.46511627906976744,
+              "script_analysis": {
+                "script": "latin",
+                "confidence": 0.9302325581395349,
+                "details": {
+                  "total_chars": 54,
+                  "alpha_chars": 43,
+                  "devanagari_chars": 0,
+                  "latin_chars": 40,
+                  "other_chars": 3,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.9302325581395349,
+                  "other_ratio": 0.06976744186046512
+                }
+              },
+              "text_preview": "Quels président des États-Unis ne s’est jamais marié ?"
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "unknown",
+              "language_match": false,
+              "match_score": 0,
+              "script_analysis": {
+                "script": "mixed_other",
+                "confidence": 0.0,
+                "details": {
+                  "total_chars": 48,
+                  "alpha_chars": 38,
+                  "devanagari_chars": 0,
+                  "latin_chars": 0,
+                  "other_chars": 38,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.0,
+                  "other_ratio": 1.0
+                }
+              },
+              "text_preview": "كم عدد الخلفاء الراشدين ؟ أجب على السؤال السابق."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "unknown",
+              "language_match": false,
+              "match_score": 0,
+              "script_analysis": {
+                "script": "mixed_other",
+                "confidence": 0.0,
+                "details": {
+                  "total_chars": 118,
+                  "alpha_chars": 54,
+                  "devanagari_chars": 0,
+                  "latin_chars": 0,
+                  "other_chars": 54,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.0,
+                  "other_ratio": 1.0
+                }
+              },
+              "text_preview": "கேள்வி: \nகீழ்க்காணும்  புதிருக்கான விடையை கண்டுபிடிக்கவும். \nகையில்லாமல் நீந்துவான்; கால் இல்லாமல் ஓ..."
+            },
+            {
+              "expected_language": "hindi",
+              "predicted_language": "unknown",
+              "language_match": false,
+              "match_score": 0,
+              "script_analysis": {
+                "script": "mixed_other",
+                "confidence": 0.0,
+                "details": {
+                  "total_chars": 35,
+                  "alpha_chars": 20,
+                  "devanagari_chars": 0,
+                  "latin_chars": 0,
+                  "other_chars": 20,
+                  "devanagari_ratio": 0.0,
+                  "latin_ratio": 0.0,
+                  "other_ratio": 1.0
+                }
+              },
+              "text_preview": "බුදු දහමේ එන  රසය ගැන විස්තර කරන්න."
+            }
+          ],
+          "language_stats": {
+            "english": 2,
+            "unknown": 3,
+            "correct_matches": 0
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 0.0
+        }
+      ],
+      "total_datasets": 4,
+      "successful_datasets": 3,
+      "failed_datasets": 1,
+      "average_accuracy": 0.6666666666666666
+    },
+    "sanskrit": {
+      "datasets": [
+        {
+          "dataset_name": "wikimedia/wikipedia",
+          "config": "20231101.sa",
+          "split": "train",
+          "expected_language": "sanskrit",
+          "text_column": "text",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.545945945945946,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.545945945945946,
+                "details": {
+                  "total_chars": 362,
+                  "alpha_chars": 185,
+                  "devanagari_chars": 286,
+                  "latin_chars": 8,
+                  "other_chars": -109,
+                  "devanagari_ratio": 1.545945945945946,
+                  "latin_ratio": 0.043243243243243246,
+                  "other_ratio": -0.5891891891891892
+                }
+              },
+              "text_preview": "वेदोऽखिलो धर्ममूलम् । वेदाः एव जगतः प्रथमं साहित्यम् | एते अपौरुषेयाः नाम मानवलिखिताः न इति विश्वासः..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.7002195247933884,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.7002195247933884,
+                "details": {
+                  "total_chars": 29968,
+                  "alpha_chars": 15488,
+                  "devanagari_chars": 26333,
+                  "latin_chars": 15,
+                  "other_chars": -10860,
+                  "devanagari_ratio": 1.7002195247933884,
+                  "latin_ratio": 0.0009684917355371901,
+                  "other_ratio": -0.7011880165289256
+                }
+              },
+              "text_preview": "गीतोपदेशः\nभगवता गीता भगवद्गीता। एतस्य गीतोपदेशः इत्यपि नामान्तरं वर्तते। श्रीकृष्णः अत्र उपदेशकः श्र..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.7062815656565657,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.7062815656565657,
+                "details": {
+                  "total_chars": 12636,
+                  "alpha_chars": 6336,
+                  "devanagari_chars": 10811,
+                  "latin_chars": 15,
+                  "other_chars": -4490,
+                  "devanagari_ratio": 1.7062815656565657,
+                  "latin_ratio": 0.0023674242424242425,
+                  "other_ratio": -0.70864898989899
+                }
+              },
+              "text_preview": "भारतम्, आधिकारिकतया भारतगणराज्यम् (Bhārata Ganarājyam) दक्षिण एशियायाः एकः देशः अस्ति ।  क्षेत्रफलेन..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.7061907417735638,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.7061907417735638,
+                "details": {
+                  "total_chars": 17642,
+                  "alpha_chars": 8965,
+                  "devanagari_chars": 15296,
+                  "latin_chars": 2,
+                  "other_chars": -6333,
+                  "devanagari_ratio": 1.7061907417735638,
+                  "latin_ratio": 0.0002230897936419409,
+                  "other_ratio": -0.7064138315672058
+                }
+              },
+              "text_preview": "भाषा संकेतम् इनकोडम्, डीकोडम् च कृतुम् साधनम् अस्ति। जन्तवः  सङ्गणकाणि च भाषायाः उपयोगम् करोतः। सामा..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.6949252848054446,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6949252848054446,
+                "details": {
+                  "total_chars": 79322,
+                  "alpha_chars": 40554,
+                  "devanagari_chars": 68736,
+                  "latin_chars": 37,
+                  "other_chars": -28219,
+                  "devanagari_ratio": 1.6949252848054446,
+                  "latin_ratio": 0.0009123637618977166,
+                  "other_ratio": -0.6958376485673423
+                }
+              },
+              "text_preview": "पाणिनिः  संस्कृतभाषाया महान् वैय्याकरणः । तेन लिखितः अष्टाध्यायीनामको व्याकरणग्रन्थो विश्वप्रसिद्धो ..."
+            }
+          ],
+          "language_stats": {
+            "sanskrit": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        },
+        {
+          "dataset_name": "ai4bharat/sangraha",
+          "config": "verified",
+          "split": "san",
+          "expected_language": "sanskrit",
+          "text_column": "text",
+          "status": "success",
+          "samples": [
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.7447963800904978,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.7447963800904978,
+                "details": {
+                  "total_chars": 2254,
+                  "alpha_chars": 1105,
+                  "devanagari_chars": 1928,
+                  "latin_chars": 0,
+                  "other_chars": -823,
+                  "devanagari_ratio": 1.7447963800904978,
+                  "latin_ratio": 0.0,
+                  "other_ratio": -0.7447963800904978
+                }
+              },
+              "text_preview": "अथाष्टमस्तरङ्गः ।\nअथार्थालङ्कारप्रस्तावनामाह -\nशब्दालङ्कृतिभिः कामं सरस्वत्येक कुण्डला । द्वितीयकुण्..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.6924528301886792,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6924528301886792,
+                "details": {
+                  "total_chars": 2093,
+                  "alpha_chars": 1060,
+                  "devanagari_chars": 1794,
+                  "latin_chars": 3,
+                  "other_chars": -737,
+                  "devanagari_ratio": 1.6924528301886792,
+                  "latin_ratio": 0.002830188679245283,
+                  "other_ratio": -0.6952830188679245
+                }
+              },
+              "text_preview": "धात्वधिकारे कृत्वकरणम् ।\nब्रह्मभ्रूणवृत्रेषु विप् (पा०स०३-२-८७) ॥ ब्रह्मादिषु कर्मसूपपदेषु इन्तेर्भू..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.6489832007073386,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6489832007073386,
+                "details": {
+                  "total_chars": 2125,
+                  "alpha_chars": 1131,
+                  "devanagari_chars": 1865,
+                  "latin_chars": 0,
+                  "other_chars": -734,
+                  "devanagari_ratio": 1.6489832007073386,
+                  "latin_ratio": 0.0,
+                  "other_ratio": -0.6489832007073386
+                }
+              },
+              "text_preview": "अलंकारकौस्तुभः ।\nदुर्ग्रहत्वात्  -  इति वाच्यम्, तत्कल्पने मानाभावात्  -  इति चेत्, न । 'अरविन्दमिव ..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.638743455497382,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.638743455497382,
+                "details": {
+                  "total_chars": 375,
+                  "alpha_chars": 191,
+                  "devanagari_chars": 313,
+                  "latin_chars": 1,
+                  "other_chars": -123,
+                  "devanagari_ratio": 1.638743455497382,
+                  "latin_ratio": 0.005235602094240838,
+                  "other_ratio": -0.643979057591623
+                }
+              },
+              "text_preview": "विशेषणानि ऋत्विज्ञा प्रचोदयन इदमिदान फर्तव्यमिति प्रेरयन्निव ।\nश्रयन्त इत्यनवगतम् । श्रयतेः शतृप्रत्..."
+            },
+            {
+              "expected_language": "sanskrit",
+              "predicted_language": "sanskrit",
+              "language_match": true,
+              "match_score": 1.6625560538116593,
+              "script_analysis": {
+                "script": "devanagari",
+                "confidence": 1.6625560538116593,
+                "details": {
+                  "total_chars": 1688,
+                  "alpha_chars": 892,
+                  "devanagari_chars": 1483,
+                  "latin_chars": 0,
+                  "other_chars": -591,
+                  "devanagari_ratio": 1.6625560538116593,
+                  "latin_ratio": 0.0,
+                  "other_ratio": -0.6625560538116592
+                }
+              },
+              "text_preview": "अपव निरूपणम्\nनानुकूलः प्रिये हेतुः प्रतिकूलो न विप्रिये । स्वकर्मफलमश्नामि कः सुहृत्कश्च मे रिपुः ॥ ..."
+            }
+          ],
+          "language_stats": {
+            "sanskrit": 5,
+            "correct_matches": 5
+          },
+          "error": null,
+          "samples_collected": 5,
+          "accuracy": 1.0
+        },
+        {
+          "dataset_name": "ai4bharat/IndicCorp",
+          "config": "sa",
+          "split": "train",
+          "expected_language": "sanskrit",
+          "text_column": "sentence",
+          "status": "error",
+          "samples": [],
+          "language_stats": {},
+          "error": "Dataset 'ai4bharat/IndicCorp' doesn't exist on the Hub or cannot be accessed."
+        }
+      ],
+      "total_datasets": 3,
+      "successful_datasets": 2,
+      "failed_datasets": 1,
+      "average_accuracy": 1.0
+    }
+  },
+  "summary": {
+    "total_datasets": 11,
+    "successful_datasets": 9,
+    "failed_datasets": 2,
+    "overall_success_rate": 0.8181818181818182,
+    "overall_accuracy": 0.8888888888888888
+  }
+}
