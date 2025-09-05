@@ -36,3 +36,5 @@ corpus_data/
 *.swo
 
 # Remove this line if you want to include tokenizer/corpus data in repo
+sample_corpus/
+corpus_data/
